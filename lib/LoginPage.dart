@@ -105,6 +105,7 @@ class _LoginPageState extends State<LoginPage> {
                       borderRadius: BorderRadius.all(Radius.circular(30.0)),
                       child: GestureDetector(
                         onTap: () {
+                          print("Ammmmad");
                           SendLoginReqeust(
                               context: context,
                               username: usernamecontroller.text,
@@ -141,9 +142,10 @@ class _LoginPageState extends State<LoginPage> {
     body['username'] = username;
     body['password'] = password;
     Response response = await post(url, body: body);
+    print(response.statusCode);
     if (response.statusCode == 200) {
       var loginjson = json.decode(utf8.decode(response.bodyBytes));
-      var model = LoginResponse(loginjson['_result'], loginjson['_message']);
+      var model = LoginResponse(loginjson['result'], loginjson['message']);
       if (model.result == 1) {
         Navigator.of(context).pushReplacement(
           PageRouteBuilder(
@@ -164,6 +166,7 @@ class _LoginPageState extends State<LoginPage> {
               }),
         );
       } else if (model.result == 0) {
+
         ShowMySnackBar(context, model.message);
       }
     }
