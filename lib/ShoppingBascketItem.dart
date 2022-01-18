@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/product.dart';
+import 'package:test_shopping/product.dart';
 
 typedef OnRemovePressed(int index);
 

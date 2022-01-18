@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/ShoppingBascketData.dart';
-import 'package:myapp/StoreMainMenuPage.dart';
+import 'package:test_shopping/ShoppingBascketData.dart';
+import 'package:test_shopping/StoreMainMenuPage.dart';
 import 'product.dart';
 
 class DescriptionPage extends StatefulWidget {

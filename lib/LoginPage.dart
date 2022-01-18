@@ -2,8 +2,8 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:http/http.dart';
-import 'package:myapp/LoginResponse.dart';
-import 'package:myapp/StoreMainMenuPage.dart';
+import 'package:test_shopping/LoginResponse.dart';
+import 'package:test_shopping/StoreMainMenuPage.dart';
 
 class LoginPage extends StatefulWidget {
   @override

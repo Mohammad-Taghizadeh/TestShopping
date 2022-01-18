@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/ShoppingBascketData.dart';
-import 'package:myapp/ShoppingBascketItem.dart';
+import 'package:test_shopping/ShoppingBascketData.dart';
+import 'package:test_shopping/ShoppingBascketItem.dart';
 
 import 'StoreMainMenuPage.dart';
 

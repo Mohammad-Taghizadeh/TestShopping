@@ -4,7 +4,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:http/http.dart';
-import 'package:myapp/Branch.dart';
+import 'package:test_shopping/Branch.dart';
 
 import 'StoreMainMenuPage.dart';
 

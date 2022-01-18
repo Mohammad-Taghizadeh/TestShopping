@@ -1,5 +1,5 @@
-import 'package:myapp/ShoppingBascket.dart';
-import 'package:myapp/product.dart';
+import 'package:test_shopping/ShoppingBascket.dart';
+import 'package:test_shopping/product.dart';
 
 class ShoppingBascketData {
   static ShoppingBascketData _instance;

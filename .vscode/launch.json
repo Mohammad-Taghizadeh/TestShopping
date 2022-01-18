@@ -11,7 +11,7 @@
             "request": "attach"
         },
         {
-            "name": "myapp",
+            "name": "test_shopping",
             "request": "launch",
             "type": "dart"
         }

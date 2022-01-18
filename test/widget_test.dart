@@ -12,7 +12,7 @@ import 'package:flutter_test/flutter_test.dart';
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(myapp());
+    await tester.pumpWidget(test_shopping());
         
             // Verify that our counter starts at 0.
             expect(find.text('0'), findsOneWidget);
@@ -29,6 +29,6 @@ void main() {
         }
     
     // ignore: missing_return
-    Widget myapp() {
+    Widget test_shopping() {
 }
     

@@ -1,13 +1,13 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:myapp/BranchesPage.dart';
-import 'package:myapp/DescriptionPage.dart';
-import 'package:myapp/LoginPage.dart';
-import 'package:myapp/ShopBottomNavigation.dart';
+import 'package:test_shopping/BranchesPage.dart';
+import 'package:test_shopping/DescriptionPage.dart';
+import 'package:test_shopping/LoginPage.dart';
+import 'package:test_shopping/ShopBottomNavigation.dart';
 import 'package:http/http.dart';
-import 'package:myapp/ShoppingBascket.dart';
-import 'package:myapp/product.dart';
+import 'package:test_shopping/ShoppingBascket.dart';
+import 'package:test_shopping/product.dart';
 
 class MainMaterial extends StatelessWidget {
   @override
